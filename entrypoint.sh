@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ $# -gt 0 ];then
-  make "$1"
+  make TARGET="$1"
 else
   make all
 fi
