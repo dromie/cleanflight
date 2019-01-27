@@ -23,8 +23,8 @@
 #define TARGET_BOARD_IDENTIFIER "MEST" // diy fork from AlienFlight F1=STM32F103+GY-91
 #define USE_TARGET_CONFIG
 
-#define LED0_PIN                PB3
-#define LED1_PIN                PB4
+#define LED0_PIN                PB4
+#define LED1_PIN                PB5
 
 #define USE_BEEPER
 #define BEEPER_PIN              PA12
